@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <ImageView
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:src="@drawable/profile_book"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgProfilePic"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtName"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:text="Samyak Jain"
+        android:padding="10dp"
+        android:layout_below="@+id/imgProfilePic"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtEmail"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:text="samyak.jain_cs.aiml19@gla.ac.in"
+        android:padding="10dp"
+        android:layout_below="@+id/txtName"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtPhone"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:text="+91 7078235453"
+        android:padding="10dp"
+        android:layout_below="@+id/txtEmail"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtAddress"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:text="Agra, India"
+        android:padding="10dp"
+        android:layout_below="@+id/txtPhone"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtlast"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:text="Enjoy Reading"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
